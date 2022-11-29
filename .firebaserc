@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mobile5-8e531": {
+      "hosting": {
+        "app": [
+          "mobile5-8e531"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mobile5-8e531"
+  }
+}
