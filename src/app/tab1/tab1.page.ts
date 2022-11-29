@@ -36,7 +36,7 @@ export class Tab1Page {
       quality: 90,
       allowEditing: false,
       resultType: CameraResultType.Base64,
-      source: CameraSource.Photos // Camera, Photos or Prompt!
+      source: CameraSource.Photos
     });
 
     if (image) {

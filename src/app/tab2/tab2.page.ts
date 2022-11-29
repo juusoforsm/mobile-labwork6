@@ -9,7 +9,7 @@ import { UserPhoto, PhotoService } from '../services/photo.service';
 })
 export class Tab2Page {
 
-  constructor(public photoService: PhotoService, public actionSheetController: ActionSheetController) {}
+  constructor(public photoService: PhotoService, public actionSheetController: ActionSheetController) { }
 
   async ngOnInit() {
     await this.photoService.loadSaved();
@@ -30,8 +30,8 @@ export class Tab2Page {
         icon: 'close',
         role: 'cancel',
         handler: () => {
-          // Nothing to do, action sheet is automatically closed
-         }
+
+        }
       }]
     });
     await actionSheet.present();
